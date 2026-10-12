@@ -1,0 +1,38 @@
+# Files to ignore when pushing a PyCharm Django project to GitHub
+
+# PyCharm
+.idea/
+
+# Local-only Django settings
+local_settings.py
+
+# Virtual environment
+.venv/
+
+### Django ###
+*.log
+*.pot
+**/*.pyc
+**/__pycache__/
+
+# Database
+db.sqlite3
+
+# Media files
+# Uncomment if you have specific media files that should NOT be pushed
+# media/
+
+# Ignore Django migrations in development if working on a team
+# Only for development
+**/migrations/**
+!**/migrations/
+!**/migrations/__init__.py
+
+# ChromeDriver
+chromedriver
+
+# Static files
+staticfiles/
+
+# Ignore all static/admin folders
+**/static/admin/
